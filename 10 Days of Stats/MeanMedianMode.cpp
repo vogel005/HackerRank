@@ -54,7 +54,9 @@ double getMedian(int n, vector<int> arr) {
 
 /*
 PURPOSE: Finds the highest frequency number within an array. If there is a tie,
-the lower value is chosen. DATE: 6-7-2019 PARAMETERS:
+the lower value is chosen. 
+DATE: 6-7-2019 
+PARAMETERS:
 * int arr; a series of integers.
 VARIABLES:
 * int mode; the highest frequency number.
@@ -63,9 +65,10 @@ VARIABLES:
 * int num; the current number being counted.
 */
 int getMode(vector<int> arr) {
+  // sorts array so the frequency for each number can be found much easier
   sort(arr.begin(), arr.end());
   
-  long mode = 0;
+  int mode = 0;
   auto count = 0;
   auto max = 0;
   int num;
@@ -98,7 +101,7 @@ INPUT:
 OUTPUT:
 * double mean; the mean of arr. one decimal point.
 * double median; the median of arr. one decimal point.
-* long mode; the mode of arr.
+* int mode; the mode of arr.
 */
 int main() {
   auto n = 0;

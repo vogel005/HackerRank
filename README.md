@@ -6,6 +6,8 @@
 
 **10 Days of Stats**
 
+**30 Days of Code**
+
 **Algorithms**
 
 **C++ Introduction**

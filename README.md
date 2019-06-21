@@ -1,20 +1,20 @@
-# Hackerrank
+# HackerRank
 
-*Solving practice problems on HackerRank to further hone coding skills.*
+*Solving practice problems based upon core concepts of coding to improve fundemental knowledge and skill with programming.*
 
 ### FOLDERS
 
-**10 Days of Stats**
+**!ShowCase -** The best examples of my code through this practice.
 
-**30 Days of Code**
+**10 Days of Stats -** Using probability, distribution and more to learn how to analyze and understand data. Multiple problems to solve for 10 days.
 
-**Algorithms**
+**30 Days of Code -** Learning how to properly use if-else statements, recursion, data structures, OOP and more to improve coding skills. A new problem to solve for 30 days.
 
-**C++ Introduction**
+**C++ -** Practice revolving specifically around the C++ language.
 
-**Data Structures**
+**Interview Prep -** Solving curated challenges around core concepts such as arrays, dictionaries and hashmaps, sorting, and more. 
 
-**Interview Prep**
+**Problem Solving -** Specific problem solving with Data Structures and Algorithms.
 
 ### ADDITIONAL NOTES
 
@@ -44,10 +44,26 @@ VARIABLES:
 
 ### SOURCES
 
-**Hackerrank**
+**HackerRank**
 
 https://www.hackerrank.com/johnrvogel
+
+*10 Days of Stats* - https://www.hackerrank.com/domains/tutorials/10-days-of-statistics
+
+*30 Days of Code* - https://www.hackerrank.com/domains/tutorials/30-days-of-code
+
+*C++* - https://www.hackerrank.com/domains/cpp
+
+*Interview Prep* - https://www.hackerrank.com/interview/interview-preparation-kit
+
+*Algorithms* - https://www.hackerrank.com/domains/algorithms
+
+*Data Structures* - https://www.hackerrank.com/domains/data-structures
 
 **Github Desktop**
 
 https://desktop.github.com/
+
+**Notepad++**
+
+https://notepad-plus-plus.org/

@@ -2,7 +2,7 @@
 
 *Solving practice problems based upon core concepts of coding to improve fundemental knowledge and skill with programming.*
 
-### FOLDERS
+## FOLDERS
 
 **!ShowCase -** The best examples of my code through this practice.
 
@@ -16,7 +16,7 @@
 
 **Problem Solving -** Specific problem solving with Data Structures and Algorithms.
 
-### ADDITIONAL NOTES
+## ADDITIONAL NOTES
 
 **Hackerrank Code vs. My Own Code**
 
@@ -42,7 +42,7 @@ VARIABLES:
 
 */
 
-### SOURCES
+## SOURCES
 
 **HackerRank**
 

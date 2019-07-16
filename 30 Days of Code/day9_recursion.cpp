@@ -5,7 +5,7 @@ using namespace std;
 //returns factorial of n
 //DATE: 6-17-2019
 int factorial(int n) {
-  return (n==1) ? n : n*factorial(n-1);
+  return (n==0) ? 1 : n*factorial(n-1);
 }
 
 int main() //hackerrank code

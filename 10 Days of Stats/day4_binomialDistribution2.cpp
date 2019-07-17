@@ -3,6 +3,7 @@
 #include <iomanip>
 using namespace std;
 
+
 /*
 PURPOSE: Finds Binomial Distribution.
 DATE: 7-16-2019
@@ -40,21 +41,31 @@ float binomialDistribution::calcBiDis(){
 }
 
 /*
-PURPOSE: Given the ratio of boy to girl births, find the proportion of families that have exactly 6 kids that have atleast 3 boys.
-DATE: 7-16-2019
+PURPOSE: Given the defective percentage of piston sizes and the sample size of pistons, this finds the probablity of 2 situations. 1, if theres no more than 2 rejected pistons. 2, containing atleast 2 rejects. 
+DATE: 7-17-2019 
 */
 int main() {
-  float br, gr; //boy and girl ratios
-  float ans=0; //cumulative probablity of 3-6 boys within the family.
-  cin>>br>>gr;
-  
-  for(int i=3;i<=6;i++)
+  float dp, ps; //defective percentage, size of pistons
+  float ans=0; 
+  cin>>dp>>ps;
+
+  //contain no more than 2 rejects 
+  for(int i=0;i<=2;i++)
   {
-    binomialDistribution answer(i,6,(br/(br+gr)));
+    binomialDistribution answer(ps-i, ps, 1-dp/100);
     ans+=answer.calcBiDis();
   }
-  //3 decimal answer
-  cout<<fixed<<setprecision(3)<<ans<<endl;
+
+  cout<<fixed<<setprecision(3)<<ans<<endl; //3 decimal answer
+  ans=0;
+  //contain atleast 2 rejects
+  for(int i=2;i<=ps;i++)
+  {
+    binomialDistribution answer(ps-i, ps, 1-dp/100);
+    ans+=answer.calcBiDis();
+  }
+
+  cout<<fixed<<setprecision(3)<<ans<<endl; 
 
   return 0;
 }

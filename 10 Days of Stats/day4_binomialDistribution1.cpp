@@ -45,7 +45,7 @@ DATE: 7-16-2019
 */
 int main() {
   float br, gr; //boy and girl ratios
-  float ans; //cumulative probablity of 3-6 boys within the family.
+  float ans=0; //cumulative probablity of 3-6 boys within the family.
   cin>>br>>gr;
   
   for(int i=3;i<=6;i++)

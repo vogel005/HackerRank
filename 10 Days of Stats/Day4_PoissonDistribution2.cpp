@@ -5,7 +5,10 @@ using namespace std;
 
 /*
 PURPOSE: Finds Poisson Distributions.
-DATE: 7-19-2019
+DATE CREATED: 7-19-2019
+VARIABLES:
+float lambda; //average mean of success
+float k; //actual number of successess
 */
 class Poisson{
   public:
@@ -29,7 +32,7 @@ float Poisson::E(float lambda){
 
 /*
 PURPOSE: Given the means of machine A and B, finds the Poisson random variable X^2 for each machine.
-DATE: 7-19-2019
+DATE CREATED: 7-19-2019
 */
 int main() {
   float mean_a, mean_b;

@@ -5,9 +5,10 @@ using namespace std;
 
 /*
 PURPOSE: Finds Binomial Distribution.
-DATE: 7-16-2019
+DATE CREATED: 7-16-2019
+LAST MODIFIED: 7-19-2019
 */
-class binomialDistribution{
+class Binomial{
   private:
     float x; //number of success
     float n; //number of trial runs
@@ -15,28 +16,28 @@ class binomialDistribution{
     float q; //failure of 1 trial
 
   public:
-    binomialDistribution(float x, float n, float p){
+    Binomial(float x, float n, float p){
       this->x=x;
       this->n=n;
       this->p=p;
       q=1-p;
     }
 
-    int factorial(int num); //finds factorial of given number
-    float calcCombin(); //combination of n,x = n!/(x!*(n-x)!)
-    float calcBiDis(); //binomial distribution of n,x,p = (n x) * p^x * q^(n-x)
+    int Factorial(int num); //finds factorial of given number
+    float nCx(); //nCx = n!/(x!*(n-x)!)
+    float b(); //b(x,n,p) = (n x) * p^x * q^(n-x)
 };
 
-int binomialDistribution::factorial(int num) {
-  return (num<2) ? 1 : num*factorial(num-1);
+int Binomial::Factorial(int num) {
+  return (num<2) ? 1 : num*Factorial(num-1);
 }
 
-float binomialDistribution::calcCombin(){
-  return factorial(n) / (factorial(x) * factorial(n-x));
+float Binomial::nCx(){
+  return Factorial(n) / (Factorial(x) * Factorial(n-x));
 }
 
-float binomialDistribution::calcBiDis(){
-  return calcCombin() * pow(p,x) * pow(q,(n-x));
+float Binomial::b(){
+  return nCx() * pow(p,x) * pow(q,(n-x));
 }
 
 /*
@@ -50,8 +51,8 @@ int main() {
   
   for(int i=3;i<=6;i++)
   {
-    binomialDistribution answer(i,6,(br/(br+gr)));
-    ans+=answer.calcBiDis();
+    Binomial answer(i,6,(br/(br+gr)));
+    ans+=answer.b();
   }
   //3 decimal answer
   cout<<fixed<<setprecision(3)<<ans<<endl;

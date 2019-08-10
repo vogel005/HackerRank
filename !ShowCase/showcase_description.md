@@ -25,7 +25,7 @@ The Central Limit Theorem is implemented by using Cummulative Distribution Funct
 
 
 ## Day8_LeastSquareRegressionLine.cpp
-'8-1-2019'
+`8-1-2019`
 
 **FROM: 10 Days of Stats**
 

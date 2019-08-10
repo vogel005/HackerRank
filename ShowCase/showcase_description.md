@@ -23,9 +23,10 @@ Implementing a factorial function, and a probablity combination formula, the cla
 
 The Central Limit Theorem is implemented by using Cummulative Distribution Function within a namespace. 
 
-## Day7_PearsonCorrelationCoefficient1.cpp
-`7-30-2019`
+
+## Day8_LeastSquareRegressionLine.cpp
+`8-1-2019`
 
 **FROM: 10 Days of Stats**
 
-Using a utility namespace filled with general purpose mathemathical equations, the Pearson Correlation Coefficient is found.
+Using a utility namespace filled with template statistical related functions, the Regression Line is found. 

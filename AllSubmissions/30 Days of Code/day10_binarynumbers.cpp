@@ -4,17 +4,10 @@ using namespace std;
 
 
 
-int main()
-{
-    int n;
-    cin >> n;
-    cin.ignore(numeric_limits<streamsize>::max(), '\n');
-
-
   /*
   PURPOSE: Converts decimal number into binary, then counts what the longest consecutive 1 count is.
   DATE: 6-18-2019
-  INPUT(via hackerrank):
+  INPUT:
   * int n; a number to be converted into binary.
   VARIABLES:
   * int r; remainder after dividing n by 2, used to find the binary number
@@ -22,6 +15,11 @@ int main()
   * int c; counts consecutive 1's in the binary string.
   * int max; the maximum count found.
   */
+
+int main()
+{
+  int n;
+  cin >> n;
 
   int r;
   string b; 

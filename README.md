@@ -21,29 +21,11 @@
 
 ## ADDITIONAL NOTES
 
-**Hackerrank Code vs. My Own Code**
+**HackerRank Code vs. My Own Code**
 
-Certain problems provide give code as a basis to make a function off of. For example, they provide a main function that inputs the data of test cases properly into an array/vector that is then sent to a function that I create which manipulates the data in whatever way the prompt wants.
+Certain HackerRank problems originally provided code as a basis to make a function off of. For example, they provided a main function that inputted the data of test cases properly into an array/vector that was then sent to a function that I created which manipulated the data in whatever way the prompt wanted. 
 
-To denote the difference, I added a comment of: 
-
-//HACKERRANK CODE
-
-to the functions written not by me.
-
-And for functions that are written by me I will have a general function header like such:
-
-/*
-
-PURPOSE:
-
-DATE:
-
-PARAMETER:
-
-VARIABLES:
-
-*/
+For the sake of readability I have removed the HackerRank code that would be in the original program, such that it is only the functions I have written. 
 
 
 ## CREDITS

@@ -11,11 +11,3 @@ PARAMETERS:
 int fibonacci(int n){
   return (n < 2) ? n : fibonacci(n-1) + fibonacci(n-2);
 }
-
-//HACKER RANK CODE
-int main() { 
-    int n;
-    cin >> n;
-    cout << fibonacci(n);
-    return 0;
-}
